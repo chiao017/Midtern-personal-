@@ -1,0 +1,315 @@
+
+<html lang="en">
+
+<head>
+  <title>德魯納酒店 Hotel Del Luna</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+  <style>
+    .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      opacity: 0.7;
+      border-radius: 50%;
+    }
+
+    .person:hover {
+      border-color: #f1f1f1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-green navbar-dark fixed-top">
+    <a class="navbar-brand"><img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/logo.png" width=70px alt="">德魯納酒店 Hotel Del Luna</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#s1">首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#s2">劇情大綱</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#s3">人物介紹</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#s4">預告</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            集數</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-1.html" target="_blank">第一集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-2.html" target="_blank">第二集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-3.html" target="_blank">第三集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-4.html" target="_blank">第四集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-5.html" target="_blank">第五集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-6.html" target="_blank">第六集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-7.html" target="_blank">第七集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-8.html" target="_blank">第八集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-9.html" target="_blank">第九集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-10.html" target="_blank">第十集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-11.html" target="_blank">第十一集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-12.html" target="_blank">第十二集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-13.html" target="_blank">第十三集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-14.html" target="_blank">第十四集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-15.html" target="_blank">第十五集</a>
+            <a class="dropdown-item" href="https://gimy.app/eps/141531-2-16.html" target="_blank">第十六集</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <section id="s1">
+    <div class="del">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic1.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic2.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic3.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic4.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic5.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic6.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic7-2.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/pic8.jpg" alt="" width="100%" height="100%">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="s2">
+    <div class="container text-center">
+      <h1>劇情大綱</h1>
+      <hr>
+      <div class="con">
+        <p><em><strong>-歡迎光臨，為您提供最好的服務。但，只限於鬼-</strong></em></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;2019年，首爾市內變化最大的市中心，位置於黃金寶地 — 明洞的古老破舊建築物，乍看之下就像準備重建的空建築物，仔細地看的話，其實是經營中的「酒店」。早上的話，在那前面有數百萬的流動人口經過，卻幾乎沒有客人進入那酒店裡面。而在開始入夜、路上變得冷清、市中心也入睡之時，招牌便亮著燈光，酒店樓層亦會升高的<strong>「德魯納酒店」</strong>。靈賓專用的德魯納酒店裡，個性認真卻軟弱超精英酒店管理人具燦星擔任著總經理，和脾氣暴躁的社長張滿月一起，為特別的靈魂客人們提供特級服務時發生的故事……</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/poster1.png" class="img-circle person" alt="poster1" width="350" height="350">
+        </div>
+        <div class="col-sm-6">
+          <img src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/poster2.png" class="img-circle person" alt="Random Name" width="350" height="350">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="s3">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>人物介紹</h1>
+          <hr>
+        </div>
+        <div class="col-sm-5">
+          <br>
+          <img class="img-thumbnail" src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/per1.png" alt="PERSONA" width=400px height=1000px>
+        </div>
+        <div class="col-sm-7">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong>
+              <h5>張滿月(李知恩飾)</h5>
+            </strong></p>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;犯了大罪被詛咒長期被捆綁在德魯納客棧的女人。出現於現代的張滿月，為德魯納酒店(Hotel Del Luna)的主人。有著不變的年輕容貌，脾氣詭譎多變，個性揮霍無度，是集美麗、高傲於一身的女子。對勢利貪財的一面毫不掩飾，討厭貧窮，遵守「有錢的客人就是王」的原則，喜歡豪奢之物及去美食店拍照打卡，是金峻鉉的粉絲。在一次意外中與燦星父親簽下由兒子擔任下任經理人的契約，後來與燦星相愛並成為燦星最後一位送走的客人。</p>
+        </div>
+        <div class="col-sm-5">
+          <br>
+          <img class="img-thumbnail" src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/per2.png" alt="PERSONA" width=400px height=1000px>
+        </div>
+        <div class="col-sm-7">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong>
+              <h5>具燦星(呂珍九飾)</h5>
+            </strong></p>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;超精英的酒店管理人，德魯納酒店的第99位人類經理哈佛MBA畢業生，名字是父親所取，原字本應為「贊成」，但因戶籍登記時出了差錯而成了「燦星」。個性執著一絲不苟，有潔癖，自我生活管理嚴謹，是一個正直且有禮貌的人，也是個對朋友很好，心腸很軟的善良男人。原本怕鬼，後來卻因命運指引擔任了鬼魂專用旅館的經理，並與來自古代的旅館主人張滿月相愛。</p>
+        </div>
+        <div class="col-sm-5">
+          <br>
+          <img class="img-thumbnail" src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/per4.png" alt="PERSONA" width=400px height=1000px>
+        </div>
+        <div class="col-sm-7">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong>
+              <h5>金時翼(申正根飾)</h5>
+            </strong></p>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;又被稱為「金書生」，在德魯納酒店已有500年的工作經驗，職務為旅館酒吧的酒保，是德魯納酒店當時年資最長的職員。本人以自己曾考上狀元一事而感到自豪，五百年前因為被取消狀元而含冤去世。在冤屈昭雪恢復名譽之後，方才毫無遺憾地離開。</p>
+        </div>
+        <div class="col-sm-5">
+          <br>
+          <img class="img-thumbnail" src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/per5.png" alt="PERSONA" width=400px height=1000px>
+        </div>
+        <div class="col-sm-7">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong>
+              <h5>崔瑞熙(裴海善飾)</h5>
+            </strong></p>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;又被稱為「崔夫人」，在德魯納酒店已工作200年，職務為客房經理。性格老成、對待客人相當親切。其本人為李氏朝鮮王朝時代某個名門家族的長媳，因女兒的遭遇而對該家族恨之入骨，原想要親眼見證該家族絕後滅亡之後再離世，但後來終於放下了纏縛多時的沉重怨念。</p>
+        </div>
+        <div class="col-sm-5">
+          <br>
+          <img class="img-thumbnail" src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/per3.png" alt="PERSONA" width=400px height=1000px>
+        </div>
+        <div class="col-sm-7">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong>
+              <h5>池賢仲(P.O飾)</h5>
+            </strong></p>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;德魯納酒店的前檯接待員，已服務近70年，死於625韓戰中，當時才19歲。其父母也在戰事中亡故，當時帶著因戰禍受傷致盲的幼妹逃離家鄉，在逃往釜山依親的途中卻被正好遇上的逃兵(舊同學吳泰錫)誤殺。原本想要等仍在世的妹妹去世後再一起前往陰間，實則希望最後能盼來吳泰錫的真心道歉和懺悔。去世前為名校高材生，個性彬彬有禮且善良，但有時會偷懶。很喜歡擁抱，是個情緒豐沛的年輕男性。後來在認識金宥娜(鄭秀晶)後逐漸喜歡上對方，於16集被金宥娜目送前往奈何橋。</p>
+        </div>
+        <div class="col-sm-5">
+          <br>
+          <img class="img-thumbnail" src="https://chiao017.github.io/Midterm-Hotel-Del-Luna/per6.png" alt="PERSONA" width=400px height=1000px>
+        </div>
+        <div class="col-sm-7">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><strong>
+              <h5>金宥娜(康美娜飾)</h5>
+            </strong></p>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;德魯納酒店的實習生，聰明有魄力的18歲高中生。因為一場內情不單純的死亡意外而發生靈魂奪舍事件，體內的靈魂被替換成了被害者鄭秀晶。認識池賢仲之後逐漸喜歡上對方。於16集目送池賢仲前往奈何橋，而後吃了麻姑神給的藥，再也看不到鬼魂。最後因為想成為酒店經理人而決心報考大學的旅館經營學系。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="s4">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>預告</h1>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8foaYOBN98E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+  <script>
+    $(function() {
+      $('#BackTop').click(function() {
+        $('html,body').animate({
+          scrollTop: 0
+        }, 333);
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+          $('#BackTop').fadeIn(222);
+        } else {
+          $('#BackTop').stop().fadeOut(222);
+        }
+      }).scroll();
+    });
+  </script>
+
+</body>
+
+</html>
