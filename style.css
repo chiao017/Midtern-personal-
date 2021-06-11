@@ -4,9 +4,9 @@
   font-family: "Noto Sans HK", sans-serif;
 }
 
-/*.navbar-nav {
-  margin-left: 200px;
-}*/
+.navbar-nav {
+  margin-left: 400px;
+}
 .container {
   padding-top: 100px;
 }
