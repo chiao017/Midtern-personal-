@@ -28,6 +28,9 @@ section#s3 {
 section#s4 {
   background-color: rgba(235, 235, 235, 0.5);
 }
+section#s5 {
+  text-align: center;
+}
 .toTop-arrow {
   width: 2.5rem;
   height: 2.5rem;
